@@ -54,10 +54,11 @@ app.get('/', function(req, res) {
     res.render('index', {});
 
 });
+//app.set('port', process.env.PORT || 3000);
+var port = process.env.PORT || 3000;
 
-
-
-app.listen(5500, function() {
-    console.log("Listening to port" + chalk.green(5500));
+//app.listen(port);
+app.listen(port, function() {
+    console.log("Listening to port" + chalk.green(port));
 });
 //creating a portnodemonapp.js
