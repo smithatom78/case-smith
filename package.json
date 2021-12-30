@@ -8,13 +8,18 @@
         "chalk": "^3.0.0",
         "cors": "^2.8.5",
         "ejs": "^2.7.2",
-        "express": "^4.17.1",
+        "express": "^4.17.2",
         "express-load": "^1.1.16",
+        "favicons": "^6.2.2",
         "http-server": "^14.0.0",
-        "mongoose": "^5.7.12"
+        "mongoose": "^5.7.12",
+        "serve-favicon": "^2.5.0"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "react-scripts test",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject"
     },
     "author": "smitha",
     "license": "ISC"

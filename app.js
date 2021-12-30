@@ -54,8 +54,12 @@ app.get('/', function(req, res) {
     res.render('index', {});
 
 });
+const favicon = require("serve-favicon");
+
+
+
 //var favicon = require('serve-favicon');
-//app.use(favicon(path.join(__dirname, 'public/images', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public/images', 'favicon.ico')));
 //app.set('port', process.env.PORT || 3000);
 var port = process.env.PORT || 3000;
 
